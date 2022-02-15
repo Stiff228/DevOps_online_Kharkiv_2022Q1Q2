@@ -1,0 +1,21 @@
+[33m030d5af[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: commit: добавил task1.1_GIT.txt (пункт 24)
+[33md060a22[m[33m ([m[1;31morigin/develop[m[33m, [m[1;32mdevelop[m[33m)[m HEAD@{1}: merge develop: Fast-forward
+[33m51e09a7[m HEAD@{2}: checkout: moving from develop to main
+[33md060a22[m[33m ([m[1;31morigin/develop[m[33m, [m[1;32mdevelop[m[33m)[m HEAD@{3}: commit (merge): Merge branch 'styles' into develop
+[33m1c5913f[m[33m ([m[1;31morigin/images[m[33m, [m[1;32mimages[m[33m)[m HEAD@{4}: merge images: Fast-forward
+[33m0d0753a[m HEAD@{5}: checkout: moving from styles to develop
+[33m0049b97[m[33m ([m[1;31morigin/styles[m[33m, [m[1;32mstyles[m[33m)[m HEAD@{6}: commit: добавил стиль в index.html
+[33mc142eaf[m HEAD@{7}: commit: добавил стиль styles.css
+[33m2c0b660[m HEAD@{8}: commit: удалил стиль из фотошопа.
+[33m607eaca[m HEAD@{9}: commit: добавил стиль для фотошопа (пункт 17)
+[33m0d0753a[m HEAD@{10}: checkout: moving from develop to styles
+[33m0d0753a[m HEAD@{11}: checkout: moving from images to develop
+[33m1c5913f[m[33m ([m[1;31morigin/images[m[33m, [m[1;32mimages[m[33m)[m HEAD@{12}: commit: Update index.html
+[33m21cc42c[m HEAD@{13}: checkout: moving from develop to images
+[33m0d0753a[m HEAD@{14}: checkout: moving from images to develop
+[33m21cc42c[m HEAD@{15}: commit: Добавил пару картинок
+[33m0d0753a[m HEAD@{16}: checkout: moving from develop to images
+[33m0d0753a[m HEAD@{17}: commit: Добавил файл index.html
+[33m51e09a7[m HEAD@{18}: checkout: moving from main to develop
+[33m51e09a7[m HEAD@{19}: commit: Create readme.txt
+[33m4108f40[m HEAD@{20}: clone: from https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2.git
