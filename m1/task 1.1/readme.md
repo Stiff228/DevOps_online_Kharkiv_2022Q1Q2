@@ -180,3 +180,11 @@ index 0000000..7a134c1
 @@ -0,0 +1 @@
 +# DevOps_online_Kharkiv_2022Q1Q2
 \ No newline at end of file
+
+
+----------------------------------------------------------------------
+My understanding of who is DevOps.
+This is a very "pumped-up" system administrator who can eliminate disagreements between developers and operations 
+and simplify-speed up the software development process, because he knows the whole process and all its cycles completely. 
+In general, an indispensable employee in the process of modern software development.
+----------------------------------------------------------------------
