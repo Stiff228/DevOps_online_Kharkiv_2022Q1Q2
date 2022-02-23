@@ -25,3 +25,18 @@
 ![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m2/task%202.2/10.png)
 ![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m2/task%202.2/10.1.png)
 
+- Creating my own repository with a S3 Bucket
+
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m2/task%202.2/11.png)
+
+- Uploaded the file to the cloud on Amazon S3 using the AWS CLI. Created an AWS IAM user.
+
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m2/task%202.2/12.png)
+
+- Deployed the Docker container in the Amazon ECS service. Create a cluster.
+
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m2/task%202.2/13.png)
+
+- Run a Serverless "Hello, World!" with AWS Lambda.
+
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m2/task%202.2/14.png)
