@@ -58,3 +58,15 @@ Configured a shared folder for data exchange between the virtual machine and the
 Configured various network modes for VM1 and VM2. I checked the connection between VM1, VM2, host, Internet for different network modes. To do this, I used the ping command
 
 ![photo](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m2/task%202.1/Part%202.%20Work%20with%20virtualbox/2.4.%202%20машины.png)
+
+                                                           PART 3. Work with Vagrant
+- Downloaded and installed Vagrant on PC. 
+- Raised the virtual machine.
+
+![photo](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m2/task%202.1/Part%203.%20Vagrant/vagrant1.png)
+
+- Connected to the VM via Putty. Recorded the date and time with the date command     
+![photo](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m2/task%202.1/Part%203.%20Vagrant/vagrant.png)
+
+
+                                                           
