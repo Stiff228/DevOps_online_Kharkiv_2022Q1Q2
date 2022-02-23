@@ -1,0 +1,39 @@
+                                                                 PART 1
+1. The most popular hypervisors is - 
+- VMware vSphere Hypervisor
+- Microsoft Hyper-V
+- Citrix XenServer
+- Oracle VirtualBox
+- Red Hat Enterprise Virtualization Hypervisor (REVH)
+- KVM
+- Parallels
+- Qemu
+
+2. - VMware vSphere Hypervisor - it is rightfully considered practically an industry standard. One of the key features is support for large virtual machines, thanks to which it allows you to deploy applications and services of almost any size.
+
+ - Microsoft Hyper-V - the hypervisor is suitable for hardware running Windows Server. Supports Windows, Windows Server, FreeBSD and various Linux distributions as guest operating systems.
+
+Owned by Microsoft. The hypervisor is installed in Windows OS, but it works directly on the "iron" machine, de facto taking up space under the host machine's operating system.
+
+ - Citrix XenServer - it supports both hardware and paravirtualization (PV), therefore it is considered an I+ type hypervisor. The volume of the codebase is very modest.
+
+- Red Hat Enterprise Virtualization Hypervisor (REVH) -Hot migration of virtual machines located on a shared NFS, iSCSI or Fibre Channel storage system.
+High Availability of virtual machines (High Availability) - if the host server fails, the virtual machines are restarted on another server from the shared storage.
+Dynamic management of virtual machine resources, as well as the movement of virtual machines by means of Live Migration based on policies associated with resources.
+When the load drops, virtual machines are dynamically transferred to other host servers, and idle physical servers are disconnected. Snapshots of virtual machines that allow you to save the state of the virtual machine (including disks) and then return to this state.
+Virtual machine templates for mass deployment of new services.
+
+ - KVM - an open source hypervisor built directly into the Linux kernel. Lightweight, allows you to deploy a virtualization environment relatively quickly. Various Linux, Solaris, BSD, Windows distributions are supported. The list of supported operating systems and hardware is constantly expanding. Resources between virtual machines on the KVM hypervisor are distributed independently, so one VM cannot "eat" the RAM of another VM and thereby disrupt its stability and performance. Allows you to deploy a virtualization platform quickly and inexpensively. It has extensive functionality and is very flexible in terms of customization.
+
+- Parallels: High partitioning density - hundreds of containers that are completely
+ identical to a dedicated server. Container isolation - security, address isolation,
+functional isolation,
+performance error isolation. 
+Fully dynamic 
+resource management. 
+"Live" migration - transfer of containers without interrupting 
+the provision of services, shared storage. 
+Group management - architecture and tools for managing 
+multiple containers/servers
+
+- Qemu - an emulator of various devices that allows you to run operating systems designed for one architecture on another (for example, ARM -> x86). In addition to the processor, it emulates various peripheral devices: network cards, HDD, video cards, PCI, USB, etc.
