@@ -48,3 +48,29 @@ The command modifies the /etc/shadow file
 - The contents of the home directory. Files are highlighted in white, directories in blue
 
 ![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.1/part1/11.png)
+
+                                                      Linux Essentials. Task 1. Part 2
+                                                      
+- I studied the "tree" command. 
+
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.1/part2/1.png)
+I have mastered the technique of using templates to display all files containing the symbol "c",
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.1/part2/2.png)
+and files containing a certain sequence of symbols
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.1/part2/3.png)
+
+Listed the subdirectories of the root directory up to and including the second level of nesting.                                                    
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.1/part2/4.png)
+
+- To determine the file type, use the file command:
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.1/part2/5.png)
+
+- You can return to your home directory from anywhere in the file system with the command "cd.."
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.1/part2/6.png)
+
+- An example of the work of the dy command with the enumeration of directories using different keys.
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.1/part2/7.png)
+Command ls -a - displays all files, including hidden ones. Command ls -l - displays a detailed list that displays the owner, group, creation date, size, and other parameters
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.1/part2/8.png)
+
+- 
