@@ -1,6 +1,7 @@
                                                       Linux Essentials. Task 2.
                                                       
 - Analyzed the structure of the file /etc/passwd
+
 ![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.2/1.png)           
 
 Structure of entries in /etc/passwd
@@ -43,4 +44,26 @@ parameters:
 
 - Command: sudo passwd -e user   will make the password obsolete
 
-- 
+- Command: ls -l  displays the extended format of the catalog information
+
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.2/4.png)
+the list shows the rights, id, owner, group, size, creation date, name
+
+- Access rights are divided into three types: read; write; execute
+These types of access rights can be granted for three classes of users: owners - each file in Linux has one owner; groups - a group of users of this file is associated with each file; other users.
+
+The access rights string consists of 10 characters. The first character indicates the file type: d - directory, - - regular file. The next three are the owner's access rights to this file. If the first character of these three is r, the owner has the right to read this file, and if -, then it does not. The next 2 characters are w - write and x - run. If it stands instead of them, it means that the owner does not have this right. 3 more characters - group access rights, three more - the rights of all other users.
+
+- You can change the owner of the file (directory) with the chown command:
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.2/5.png)
+
+You can change the file access mode with the chmod command:
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.2/6.png)
+
+- The umask command sets the rights mask for new files and directories. When creating any file, the operating system requests a rights mask and calculates a mask based on it.
+
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.2/7.png)
+
+- Sticky Bit . If this bit is set for a folder, then the files in this folder can only be deleted by their owner. An example of using this bit in the operating system is the system folder /tmp. This folder is writable by any user, but only users who own these files can delete files in it.
+
+- File attributes always have the value "rwxrwxrwx" and are dummy values.
