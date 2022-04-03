@@ -113,3 +113,26 @@ You can continue it in the background using the bg command.
 The nohup utility makes it possible for the process to continue working in the background when logging out.
   
 ![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.3/part1/11.png)
+
+                                                      Linux Essentials. Task 3. Part 2
+  
+- Command ifconfig - shows the status of network interfaces
+  
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.3/part2/1.png)
+  
+who - will show who is currently logged in.
+w - shows who is currently in the system and what he is doing.
+  
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.3/part2/3.png)
+  
+- Implemented basic SSH settings to increase connection security
+  
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.3/part2/4.png)
+  
+- ssh-keygen can generate four types of keys: dsa; ecdsa; ed25519; rsa
+  
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.3/part2/5.png)
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.3/part2/6.png)  
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.3/part2/7.png)  
+  
+  
