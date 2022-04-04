@@ -82,13 +82,13 @@ L - search by word;
 
 ![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.3/part1/9.png)
 
-- Example sorting interactive top
-<Shift>+<N> — sort by PID;
-<Shift>+<P> — sort by CPU usage;
-<Shift>+<M> — sort by Memory usage;
-<Shift>+<T> — sort by Time usage;
-<Shift>+<Z> — change colors;
-<c> - display absolute path of command;
+- Example sorting interactive top:
+Shift+N - sort by PID;
+Shift+P - sort by CPU usage;
+Shift+M - sort by Memory usage;
+Shift+T - sort by Time usage;
+Shift+Z - change colors;
+c - display absolute path of command;
 And more hotkeys are available
   
 ![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.3/part1/10.png)
@@ -135,4 +135,13 @@ w - shows who is currently in the system and what he is doing.
 ![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.3/part2/6.png)  
 ![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.3/part2/7.png)  
   
+- Implemented port forwarding for an SSH client from a host computer to a Linux guest
+VM via NAT.
   
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.3/part2/8.png)
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.3/part2/9.png)  
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.3/part2/10.png)  
+  
+- Intercepted wireshark traffic when authorizing a remote client on the server using ssh
+  
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m4/task%204.3/part2/11.png)   
