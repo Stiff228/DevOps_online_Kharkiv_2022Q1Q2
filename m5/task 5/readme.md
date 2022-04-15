@@ -49,3 +49,22 @@ Client_1 to Client_2
 Client_2 to Client_1
 ![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m5/task%205/13.png)
 
+- Configured the firewall on Server_1 in this way:
+
+1) SSH connection is allowed with Client_1 and prohibited with Client_2
+
+Server_1
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m5/task%205/14.png)
+
+Client_1
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m5/task%205/15.png)
+
+Client_2
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m5/task%205/16.png)
+
+2) Ping passed from Client_1 to 172.17.13.1, but it did not pass on 172.17.23.1
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m5/task%205/17.png)
+
+- On Server_1 configured NAT service in such a way that ping passes from Client_1 and Client_2 to the Internet
+
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m5/task%205/18.png)
