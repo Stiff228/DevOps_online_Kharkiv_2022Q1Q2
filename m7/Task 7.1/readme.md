@@ -74,4 +74,22 @@ What we have:
 
 - Let's create several users with different rights. user_1 will have read-only rights from all tables, user_2 will have write access only to the autobus table.
 
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m7/Task%207.1/images/9.png)
 
+We see that the user can read, but cannot write data to tables.
+
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m7/Task%207.1/images/10.png)
+
+We see that the user can write data to the table autobus, but he has no rights to read.
+
+Let's remove user_2 write permissions to the table aircrafts.
+```MYSQL
+REVOKE ALL PRIVILEGES ON bus_travel.autobus FROM 'user_2'@'localhost';
+```
+
+After that, when trying to access the database, we see an error, since user_2 could only write data to one table autobus, and after removing these rights, he does not have any access to the database bus_travel at all.
+
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m7/Task%207.1/images/11.png)
+
+- Selection from the main table DB MySQL.
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m7/Task%207.1/images/12.png)
