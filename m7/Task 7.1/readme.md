@@ -93,3 +93,20 @@ After that, when trying to access the database, we see an error, since user_2 co
 
 - Selection from the main table DB MySQL.
 ![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m7/Task%207.1/images/12.png)
+
+## Part 2
+- Make backup of database.
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m7/Task%207.1/images/13.png)
+
+- Now let's delete the routes table.
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m7/Task%207.1/images/14.png)
+
+We will also delete some records from the airports table.
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m7/Task%207.1/images/15.png)
+
+- Restored database.
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m7/Task%207.1/images/16.png)
+
+- Transfer local database to RDS AWS.
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m7/Task%207.1/images/17.png)
+
