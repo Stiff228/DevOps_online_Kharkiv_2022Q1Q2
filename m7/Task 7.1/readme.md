@@ -110,3 +110,14 @@ We will also delete some records from the airports table.
 - Transfer local database to RDS AWS.
 ![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m7/Task%207.1/images/17.png)
 
+Unfortunately, I could not connect to the aws database from a virtual machine in any way ((..
+
+## Part 3 - MongoDB
+- Created a database. 
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m7/Task%207.1/images/18.png)
+- Created a couple of collections. 
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m7/Task%207.1/images/19.png)
+- Added several documents to the collection. 
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m7/Task%207.1/images/20.png)
+- Used find() to list documents out.
+![image](https://github.com/Stiff228/DevOps_online_Kharkiv_2022Q1Q2/blob/main/m7/Task%207.1/images/21.png)
